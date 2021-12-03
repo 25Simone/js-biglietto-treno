@@ -3,9 +3,11 @@ const outputHtml = document.getElementById('output');
 
 // chiedo all'utenete il numero di chilometri che vuole percorrere
 let km = prompt('Inserisci qui il numero di km da percorre.');
+document.getElementById('user-km').innerHTML = `${km}`;
 
 // chiedo all'utente l'età del passeggero
 let age = prompt("Inersici qui l'eta del passeggero.");
+document.getElementById('user-age').innerHTML = `${age}`;
 
 // prezzo del biglietto
 let price = km * 0.21;
