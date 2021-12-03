@@ -33,3 +33,13 @@ let finalPriceRounded = Math.round((finalPrice + Number.EPSILON) * 100) / 100;
 
 // stampo il risultato
 outputHtml.innerHTML += `${finalPriceRounded} &euro;`;
+
+// definisco la data di validazione del ticket
+const dateHtml = document.getElementById('validation-date');
+
+const now = new Date();
+let day = now.getDate();
+let month = now.getMonth() +1;
+let year = now.getFullYear();
+
+dateHtml.innerHTML = `Validation Date: ${day} / ${month} / ${year}`;

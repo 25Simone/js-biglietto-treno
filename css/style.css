@@ -22,6 +22,7 @@
 }
 .main{
     display: flex;
+    flex-wrap: wrap;
 }
 .main-left{
     width: 50%;
@@ -40,4 +41,8 @@
 }
 .main-right>div{
     margin: 20px 0;
+}
+#validation-date{
+    width: 100%;
+    text-align: center;
 }
