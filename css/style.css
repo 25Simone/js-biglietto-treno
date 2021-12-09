@@ -46,3 +46,15 @@
     width: 100%;
     text-align: center;
 }
+section{
+    text-align: center;
+}
+#button{
+    color: #fff;
+    display: inline-block;
+    background: maroon;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
